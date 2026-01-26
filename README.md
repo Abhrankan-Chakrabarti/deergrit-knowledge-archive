@@ -3,7 +3,7 @@
 DEERGRIT is a **static, read-only knowledge archive** designed to be hosted as a **Tor onion service**.
 Its purpose is to explain how modern digital systems work, in a calm, factual, and accessible way.
 
-The project focuses on topics that are often misunderstood or left unexplained, such as how the internet functions, how data is collected, how attention is shaped online, and how to think critically in digital spaces.
+The project focuses on topics that are often misunderstood or left unexplained, such as how the internet functions, how data is collected, how attention is shaped online, how digital infrastructure concentrates power, and how to think critically in digital spaces.
 
 DEERGRIT does **not** aim to persuade, campaign, or promote any ideology.
 It exists purely as an educational resource.
@@ -33,17 +33,20 @@ It exists purely as an educational resource.
 ## Project Structure
 
 ```
+
 deergrit/
 ├── index.html
 ├── about.html
 ├── topics.html
 ├── disclaimer.html
 └── pages/
-    ├── how-the-internet-works.html
-    ├── how-data-is-collected.html
-    ├── how-attention-is-engineered.html
-    ├── surveillance-basics.html
-    └── thinking-critically-online.html
+├── how-the-internet-works.html
+├── how-data-is-collected.html
+├── how-attention-is-engineered.html
+├── surveillance-basics.html
+├── digital-infrastructure-and-power.html
+└── thinking-critically-online.html
+
 ```
 
 All pages are written in plain HTML with inline CSS and include a disclaimer link in the footer.
@@ -67,5 +70,6 @@ No additional dependencies are required.
 
 ## License
 
-This project is intended for **public educational use**.
-Refer to the repository’s `LICENSE` file for details.
+This project is released under **Creative Commons Zero v1.0 Universal (CC0)**.
+
+You are free to copy, modify, distribute, and use this work for any purpose, without asking permission.
