@@ -33,20 +33,19 @@ It exists purely as an educational resource.
 ## Project Structure
 
 ```
-
 deergrit/
 ├── index.html
 ├── about.html
 ├── topics.html
 ├── disclaimer.html
 └── pages/
-├── how-the-internet-works.html
-├── how-data-is-collected.html
-├── how-attention-is-engineered.html
-├── surveillance-basics.html
-├── digital-infrastructure-and-power.html
-└── thinking-critically-online.html
-
+    ├── index.html
+    ├── how-the-internet-works.html
+    ├── how-data-is-collected.html
+    ├── how-attention-is-engineered.html
+    ├── surveillance-basics.html
+    ├── digital-infrastructure-and-power.html
+    └── thinking-critically-online.html
 ```
 
 All pages are written in plain HTML with inline CSS and include a disclaimer link in the footer.
@@ -59,7 +58,7 @@ DEERGRIT is designed to be deployed as a Tor hidden service using any standard w
 
 Basic steps:
 
-1. Place the `deergrit/` directory inside your web server’s document root
+1. Place the `deergrit/` directory inside your web server's document root
 2. Configure a Tor onion service pointing to that directory
 3. Restart Tor and your web server
 4. Access the site using Tor Browser
@@ -73,3 +72,4 @@ No additional dependencies are required.
 This project is released under **Creative Commons Zero v1.0 Universal (CC0)**.
 
 You are free to copy, modify, distribute, and use this work for any purpose, without asking permission.
+
